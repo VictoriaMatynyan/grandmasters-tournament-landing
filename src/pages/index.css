@@ -43,3 +43,15 @@
 @import url(../blocks/event/__info-table-row/event__info-table-row.css);
 @import url(../blocks/event/__info-table-data/event__info-table-data.css);
 @import url(../blocks/event/__info-text/event__info-text.css);
+
+@import url(../blocks/stages/stages.css);
+@import url(../blocks/stages/__content-wrapper/stages__content-wrapper.css);
+@import url(../blocks/stages/__title/stages__title.css);
+@import url(../blocks/stages/__span-text/stages__span-text.css);
+@import url(../blocks/stages/__content/stages__content.css);
+@import url(../blocks/stages/__item/stages__item.css);
+@import url(../blocks/stages/__item-number/stages__item-number.css);
+@import url(../blocks/stages/__item-text/stages__item-text.css);
+@import url(../blocks/stages/__image/stages__image.css);
+
+@import url(../blocks/competitors/competitors.css);

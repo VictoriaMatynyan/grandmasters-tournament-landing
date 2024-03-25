@@ -1,7 +1,7 @@
 .event__info-table-data {
-    width: calc(704px / 2);
     margin: 0;
-    padding: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
 }
 
 /* ставим бордер только между двумя ячейками, не снаружи */

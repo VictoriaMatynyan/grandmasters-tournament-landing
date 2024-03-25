@@ -1,0 +1,6 @@
+.stages {
+    margin: 165px 72px 0;
+    /* margin: 200px 72px 0; (по макету - 200px) */
+    display: flex;
+    flex-direction: column;
+}

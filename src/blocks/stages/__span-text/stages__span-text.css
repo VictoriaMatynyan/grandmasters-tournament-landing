@@ -1,10 +1,12 @@
-.event__info-text {
+.stages__span-text {
+    display: inline-block;
+    width: 280px;
+    padding-left: 20px;
     font-family: 'GolosText-Regular';
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    padding-top: 48px;
     color: #3057A2;
-    margin: 0;
+    text-transform: initial;
 }

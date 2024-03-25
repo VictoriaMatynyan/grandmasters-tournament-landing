@@ -1,0 +1,22 @@
+.stages__item {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    gap: 16px;
+    background-image: url('../../../images/grid-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.stages__item:nth-child(3) {
+    grid-row: span 2;
+}
+
+.stages__item:nth-child(7) {
+    grid-column: span 2;
+    position: relative;
+}
+
+.stages__item:nth-child(7) .stages__item-text {
+    width: 446px;
+}

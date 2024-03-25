@@ -1,0 +1,9 @@
+.stages__content {
+    margin: 54px 0 0 0;
+    padding: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 394px);
+    grid-template-rows: repeat(2, 112px) 136px;
+    gap: 20px;
+}
