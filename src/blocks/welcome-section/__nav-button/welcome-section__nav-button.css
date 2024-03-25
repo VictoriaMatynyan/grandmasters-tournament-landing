@@ -1,0 +1,47 @@
+:root {
+    --text-color: #1F1F1F;
+}
+
+.welcome-section__nav-button {
+    width: calc(263px - (49px * 2));
+    font-family: 'GolosText-Medium';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    padding: 20px 49px;
+    display: flex;
+    align-items: center;
+    border-radius: 66px;
+    -webkit-border-radius: 66px;
+    -moz-border-radius: 66px;
+    -ms-border-radius: 66px;
+    -o-border-radius: 66px;
+    cursor: pointer;
+}
+
+.welcome-section__nav-button:hover {
+    cursor: pointer;
+}
+
+.support {
+    background-color: var(--text-color);
+    color: #fff;
+}
+
+.support:hover {
+    background-color: #FBCE51;
+    color: var(--text-color);
+}
+
+.details {
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+}
+
+.details:hover {
+    background-color: var(--text-color);
+    color: #fff;
+}

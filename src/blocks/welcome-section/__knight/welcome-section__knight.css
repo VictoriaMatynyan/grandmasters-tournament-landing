@@ -1,0 +1,11 @@
+.welcome-section__knight {
+    display: flex;
+    position: absolute;
+    right: 50%;
+    transform: translateX(350px);
+    bottom: 0;
+    -webkit-transform: translateX(350px);
+    -moz-transform: translateX(350px);
+    -ms-transform: translateX(350px);
+    -o-transform: translateX(350px);
+}

@@ -1,0 +1,13 @@
+.welcome-section__city-wrapper {
+    width: 1624px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-49%);
+    left: 50%;
+    z-index: -1;
+    -webkit-transform: translateX(-49%);
+    -moz-transform: translateX(-49%);
+    -ms-transform: translateX(-49%);
+    -o-transform: translateX(-49%);
+}

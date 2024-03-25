@@ -1,0 +1,7 @@
+.welcome-section__border {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: -5px;
+    width: 1604px;
+}

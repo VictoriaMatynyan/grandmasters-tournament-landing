@@ -1,0 +1,12 @@
+.welcome-section__king {
+    display: flex;
+    position: absolute;
+    top: 270px;
+    right: 50%;
+    transform: translateX(177px);
+    z-index: -2;
+    -webkit-transform: translateX(177px);
+    -moz-transform: translateX(177px);
+    -ms-transform: translateX(177px);
+    -o-transform: translateX(177px);
+}

@@ -1,0 +1,6 @@
+.welcome-section__nav {
+    display: flex;
+    padding-top: 40px;
+    gap: 15px;
+    height: 72px;
+}
