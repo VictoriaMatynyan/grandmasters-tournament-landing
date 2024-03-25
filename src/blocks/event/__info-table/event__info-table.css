@@ -1,0 +1,7 @@
+.event__info-table {
+    display: flex;
+    flex-direction: column;
+    width: 704px;
+    margin: 0;
+    padding-top: 60px;
+}

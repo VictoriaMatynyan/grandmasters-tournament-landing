@@ -25,3 +25,21 @@
 @import url(../blocks/welcome-section/__king/welcome-section__king.css);
 @import url(../blocks/welcome-section/__knight/welcome-section__knight.css);
 @import url(../blocks/welcome-section/__pawn/welcome-section__pawn.css);
+
+@import url(../blocks/running-line/running-line.css);
+@import url(../blocks/red-text/red-text.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/info/info.css);
+@import url(../blocks/crossed-text/crossed-text.css);
+
+@import url(../blocks/event/event.css);
+@import url(../blocks/event/__content/event__content.css);
+@import url(../blocks/event/__title-wrapper/event__title-wrapper.css);
+@import url(../blocks/event/__title/event__title.css);
+@import url(../blocks/event/__title-image/event__title-image.css);
+@import url(../blocks/event/__info/event__info.css);
+@import url(../blocks/event/__info-img/event__info-img.css);
+@import url(../blocks/event/__info-table/event__info-table.css);
+@import url(../blocks/event/__info-table-row/event__info-table-row.css);
+@import url(../blocks/event/__info-table-data/event__info-table-data.css);
+@import url(../blocks/event/__info-text/event__info-text.css);

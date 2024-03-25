@@ -1,0 +1,19 @@
+.event__info-table-row {
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid #D0D0D0;
+}
+
+.event__info-table-row:last-child {
+    border-bottom: none;
+}
+
+.event__info-table-row:first-child .title,
+.event__info-table-row:first-child .info {
+    padding-top: 0;
+}
+
+.event__info-table-row:last-child .title,
+.event__info-table-row:last-child .info {
+    padding-bottom: 0;
+}

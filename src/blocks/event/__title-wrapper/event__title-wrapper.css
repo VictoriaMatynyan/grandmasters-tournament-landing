@@ -1,0 +1,5 @@
+.event__title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}

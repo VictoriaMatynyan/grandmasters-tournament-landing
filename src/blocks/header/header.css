@@ -4,3 +4,9 @@
     padding: 26px 0 0 144px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1512px) {
+    .header {
+        padding: 26px 0 0 72px;
+    }
+}

@@ -1,0 +1,12 @@
+.running-line {
+    width: 100vw;
+    font-family: 'Merriweather';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: right;
+    padding: 18px 0 18px 0;
+    text-transform: uppercase;
+    background-color: #F54932;
+    color: #fff;
+}

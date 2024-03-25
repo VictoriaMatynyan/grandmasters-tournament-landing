@@ -3,3 +3,9 @@
     margin: 0 auto;
     padding-left: 144px;
 }
+
+@media screen and (max-width: 1512px) {
+    .welcome-section__content-wrapper {
+        padding-left: 72px;
+    }
+}
