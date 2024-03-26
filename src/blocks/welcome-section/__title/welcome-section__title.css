@@ -8,3 +8,11 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 990px) {
+    .welcome-section__title {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 50px;
+    }  
+ }

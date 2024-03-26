@@ -1,5 +1,5 @@
 .event__title {
-    width: 764px;
+    max-width: 764px;
     font-family: 'Merriweather';
     font-size: 36px;
     font-weight: 400;
@@ -8,4 +8,11 @@
     margin: 0;
     padding: 0;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 990px) {
+    .event__title {
+        font-size: 30px;
+        line-height: 40.5px;
+    }
 }

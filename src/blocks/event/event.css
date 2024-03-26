@@ -3,3 +3,10 @@
     flex-direction: column;
     margin: 80px 72px 0;
 }
+
+@media screen and (min-width: 1367px) {
+    .event {
+        justify-content: center;
+        align-items: center;
+    }
+}

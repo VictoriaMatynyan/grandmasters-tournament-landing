@@ -10,3 +10,15 @@
     -ms-transform: translateX(525px);
     -o-transform: translateX(525px);
 }
+
+@media screen and (max-width: 990px) {
+    .welcome-section__queen {
+        height: 150px;
+        top: 350px;
+        transform: translateX(350px);
+        -webkit-transform: translateX(350px);
+        -moz-transform: translateX(350px);
+        -ms-transform: translateX(350px);
+        -o-transform: translateX(350px);
+    }    
+}

@@ -24,8 +24,8 @@
                 </h1>
                 <p class="welcome-section__subtitle">Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам</p>
                 <nav class="welcome-section__nav">
-                    <a class="welcome-section__nav-button support" href="#">Поддержать шахматную мысль</a>
-                    <a class="welcome-section__nav-button details" href="#">Подробнее о турнире</a>
+                    <a class="welcome-section__nav-button support" href="#support">Поддержать шахматную мысль</a>
+                    <a class="welcome-section__nav-button details" href="#details">Подробнее о турнире</a>
                 </nav>
             </article>
             <div class="welcome-section__ellipse-wrapper">
@@ -44,7 +44,7 @@
     </section>
     <marquee class="running-line">Дело помощи утопающим — дело рук самих утопающих! &#183; Шахматы двигают вперед не только культуру, но и экономику! &#183; Лед тронулся, господа присяжные заседатели!</marquee>
 
-    <section class="event">
+    <section class="event" id="support">
         <main class="event__content">
             <div class="event__title-wrapper">
                 <h2 class="event__title">Чтобы поддержать Международный васюкинский турнир посетите лекцию на тему: <span class="red-text">«Плодотворная дебютная идея»</span></h2>
@@ -115,11 +115,67 @@
                     <p class="stages__item-text">Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн</p>
                     <img class="stages__image" src="/src/images/plane.svg" alt="фото биплана">
                 </li>
-                <div class="stages__image"></div>
+                <div class="slider">
+                    <button class="pagination__button">
+                        <img class="pagination__arrow-left" src="/src/images/carousel-button-left.svg" alt="стрелка влево">
+                    </button>
+                    <div class="slider__container">
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                    </div>
+                    <button class="pagination__button">
+                        <img class="pagination__arrow-right" src="/src/images/carousel-button-right.svg" alt="стрелка вправо">
+                    </button>
+                </div>
             </ul>
         </main>
     </section>
-    <section class="competitors">
+
+    <section class="competitors" id="details">
+        <main class="competitors__content-wrapper">
+            <div class="competitors__header-container">
+                <h2 class="competitors__header">Участники турнира</h2>
+                <div class="pagination">
+                    <button class="pagination__button">
+                        <img class="pagination__arrow-left" src="/src/images/carousel-button-left.svg" alt="стрелка влево">
+                    </button>
+                    <p class="pagination__count">
+                        <span class="highlight">3</span>
+                        / 6 </p>
+                    <button class="pagination__button">
+                        <img class="pagination__arrow-right" src="/src/images/carousel-button-right.svg" alt="стрелка вправо">
+                    </button>
+                </div>
+            </div>
+            <section class="competitors__gallery">
+                <article class="competitors__competitor-card">
+                    <img class="competitors__avatar" src="/src/images/competitor-avatar.svg" alt="аватарка участника">
+                    <h3 class="competitors__name">Хозе-Рауль Капабланка</h3>
+                    <p class="competitors__position">Чемпион мира по шахматам</p>
+                    <button class="competitors__details-btn">Подробнее</button>
+                </article>
+                <article class="competitors__competitor-card">
+                    <img class="competitors__avatar" src="/src/images/competitor-avatar.svg" alt="аватарка участника">
+                    <h3 class="competitors__name">Эммануил Ласкер</h3>
+                    <p class="competitors__position">Чемпион мира по шахматам</p>
+                    <button class="competitors__details-btn">Подробнее</button>
+                </article>
+                <article class="competitors__competitor-card">
+                    <img class="competitors__avatar" src="/src/images/competitor-avatar.svg" alt="аватарка участника">
+                    <h3 class="competitors__name">Александр Алехин</h3>
+                    <p class="competitors__position">Чемпион мира по шахматам</p>
+                    <button class="competitors__details-btn">Подробнее</button>
+                </article>
+            </section>
+        </main>
     </section>
+    <marquee class="running-line">Дело помощи утопающим — дело рук самих утопающих! &#183; Шахматы двигают вперед не только культуру, но и экономику! &#183; Лед тронулся, господа присяжные заседатели!</marquee>
+    <footer class="footer">
+        <div class="footer__container"></div>
+        <p class="footer__text">Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».</p>
+    </footer>
 </body>
 </html>

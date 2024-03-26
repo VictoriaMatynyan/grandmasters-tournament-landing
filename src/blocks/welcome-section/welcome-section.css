@@ -21,3 +21,9 @@
     height: 700px;
     z-index: -10;
 }
+
+@media screen and (max-width: 990px) {
+    .welcome-section.welcome-section__overlay {
+        height: 812px;
+    }
+}

@@ -11,3 +11,15 @@
     -ms-transform: translateX(-49%);
     -o-transform: translateX(-49%);
 }
+
+@media screen and (max-width: 990px) {
+    .welcome-section__city-wrapper {
+        width: 1131px;
+        height: 300px;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }    
+}

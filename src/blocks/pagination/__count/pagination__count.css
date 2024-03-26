@@ -1,0 +1,12 @@
+.pagination__count {
+    font-family: 'GolosText-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: rgba(49, 49, 49, .6);
+    margin: 0;
+}
+
+.pagination__count .highlight {
+    color: rgba(49, 49, 49, 1);
+}

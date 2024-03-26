@@ -9,3 +9,10 @@
         padding-left: 72px;
     }
 }
+
+@media screen and (max-width: 990px) {
+    .welcome-section__content-wrapper {
+        display: flex;
+        justify-content: center;
+    }    
+}

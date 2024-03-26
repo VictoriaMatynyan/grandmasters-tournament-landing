@@ -7,3 +7,9 @@
     text-align: left;
     color: var(--text-color);
 }
+
+@media screen and (max-width: 990px) {
+    .info {
+        padding-left: 0;
+    }
+}

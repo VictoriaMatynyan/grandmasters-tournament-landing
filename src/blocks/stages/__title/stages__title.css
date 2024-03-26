@@ -9,3 +9,10 @@
     text-transform: uppercase;
     margin: 0;
 }
+
+@media screen and (max-width: 990px) {
+    .stages__title {
+        font-size: 45px;
+        line-height: 54px;
+    }
+}

@@ -17,3 +17,9 @@
 .event__info-table-row:last-child .info {
     padding-bottom: 0;
 }
+
+@media screen and (max-width: 990px) {
+    .event__info-table-row {
+        flex-direction: column;
+    }
+}

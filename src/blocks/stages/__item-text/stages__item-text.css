@@ -1,6 +1,6 @@
 .stages__item-text {
     margin: 0;
-    width: 302px;
+    max-width: 302px;
     font-family: 'GolosText-Regular';
     font-size: 20px;
     font-weight: 500;
@@ -9,5 +9,13 @@
 }
 
 .stages__item-text:nth-child(7) {
-    width: 446px;
+    max-width: 446px;
+}
+
+@media screen and (max-width: 990px) {
+    .stages__item-text {
+        width: 239px;
+        font-size: 18px;
+        line-height: 21.6px;
+    } 
 }

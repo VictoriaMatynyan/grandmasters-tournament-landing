@@ -1,0 +1,6 @@
+.competitors__competitor-card {
+    display: flex;
+    width: 394px;
+    flex-direction: column;
+    align-items: center;
+}

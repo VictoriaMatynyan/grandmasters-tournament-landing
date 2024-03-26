@@ -1,4 +1,12 @@
 .competitors {
     display: flex;
-    margin: 200px 72px 0;
+    flex-direction: column;
+    margin: 200px 72px 140px;
+}
+
+@media screen and (min-width: 1367px) {
+    .competitors {
+        justify-content: center;
+        align-items: center;
+    }
 }
