@@ -16,3 +16,10 @@
         line-height: 50px;
     }  
  }
+
+@media screen and (max-width: 595px) {
+    .welcome-section__title {
+        font-size: 36px;
+        line-height: 39.6px;
+    }  
+ }

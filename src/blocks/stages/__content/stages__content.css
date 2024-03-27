@@ -10,51 +10,16 @@
 
 @media screen and (max-width: 990px) {
     .stages__content {
-        width: 335px;
-        height: 300px;
-        grid-template: repeat(2, 152px) / repeat(5, 1fr);
-        /* display: flex; */
-        gap: 0;
         position: relative;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, auto);
+        gap: 0;
     }
 }
 
-.slider{
-    display: none;
+@media screen and (max-width: 450px) {
+    .stages__content {
+        grid-template-columns: 335px;
+    }
+    
 }
-
-@media screen and (max-width: 990px) {
-    .slider {
-        display: flex;
-        width: 178px;
-        align-items: center;
-        justify-content: space-between;
-        padding-top: 28px;
-    }
-    .slider__container {
-        display: flex;
-        width: 74px;
-        justify-content: center;
-        gap: 6px;
-        transition: transform 0.5s ease;
-        -webkit-transition: transform 0.5s ease;
-        -moz-transition: transform 0.5s ease;
-        -ms-transition: transform 0.5s ease;
-        -o-transition: transform 0.5s ease;
-    }
-    .slide {
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        background-color: #D9D9D9;
-        cursor: pointer;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-    }
-    .slide.active {
-        background-color: var(--text-color);
-    }
-}
-

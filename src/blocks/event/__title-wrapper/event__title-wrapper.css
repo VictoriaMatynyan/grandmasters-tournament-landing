@@ -3,3 +3,13 @@
     align-items: center;
     gap: 64px;
 }
+
+@media screen and (max-width: 890px) {
+    .event__title-wrapper {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .event__title-wrapper {
+        flex-direction: column-reverse;
+    }
+}

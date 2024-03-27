@@ -22,3 +22,15 @@
         -o-transform: translateX(350px);
     }    
 }
+
+@media screen and (max-width: 595px) {
+    .welcome-section__queen {
+        height: 100px;
+        top: 460px;
+        transform: translateX(130px);
+        -webkit-transform: translateX(130px);
+        -moz-transform: translateX(130px);
+        -ms-transform: translateX(130px);
+        -o-transform: translateX(130px);
+    }    
+}

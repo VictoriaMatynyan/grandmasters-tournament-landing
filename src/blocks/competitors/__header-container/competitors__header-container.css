@@ -1,5 +1,20 @@
 .competitors__header-container {
     display: flex;
-    width: 100%;
+    width: 1222px;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1366px) {
+    .competitors__header-container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .competitors__header-container {
+        max-width: 335px;
+        margin: 0;
+        padding: 0;
+    }
 }

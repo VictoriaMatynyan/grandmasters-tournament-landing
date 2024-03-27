@@ -1,3 +1,12 @@
 .stages__content-wrapper {
     max-width: 1366px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 495px) {
+    .stages__content-wrapper{
+        max-width: 335px;
+    }
+    
 }

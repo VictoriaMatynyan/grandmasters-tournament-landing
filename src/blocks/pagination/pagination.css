@@ -4,3 +4,35 @@
     width: 151px;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 990px) {
+    .pagination {
+        position: absolute;
+        left: 40%;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 777px) {
+    .pagination {
+        left: 35%;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .pagination {
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .pagination {
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .pagination {
+        left: 26%;
+    }
+}

@@ -47,8 +47,13 @@
     <section class="event" id="support">
         <main class="event__content">
             <div class="event__title-wrapper">
-                <h2 class="event__title">Чтобы поддержать Международный васюкинский турнир посетите лекцию на тему: <span class="red-text">«Плодотворная дебютная идея»</span></h2>
-                <img class="event__title-image" src="/src/images/info-image.svg" alt="гроссмейстеры играют в шахматную партию">
+                <h2 class="event__title">
+                    Чтобы поддержать Международный васюкинский турнир
+                    <img class="event__title-image-left" src="/src/images/info-image.svg" alt="гроссмейстеры играют в шахматную партию">
+                    <span class="event__title-end">посетите лекцию на тему:</span>
+                    <span class="red-text">«Плодотворная дебютная идея»</span>
+                </h2>
+                <img class="event__title-image-right" src="/src/images/info-image.svg" alt="гроссмейстеры играют в шахматную партию">
             </div>
             <section class="event__info">
                 <img class="event__info-img" src="/src/images/info-event-poster.svg" alt="постер для шахматного турнира">
@@ -93,7 +98,6 @@
                 <li class="stages__item">
                     <div class="stages__item-number">2</div>
                     <p class="stages__item-text">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</p>
-                </li>
                 <li class="stages__item">
                     <div class="stages__item-number">3</div>
                     <p class="stages__item-text">Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</p>
@@ -115,22 +119,22 @@
                     <p class="stages__item-text">Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн</p>
                     <img class="stages__image" src="/src/images/plane.svg" alt="фото биплана">
                 </li>
-                <div class="slider">
-                    <button class="pagination__button">
-                        <img class="pagination__arrow-left" src="/src/images/carousel-button-left.svg" alt="стрелка влево">
-                    </button>
-                    <div class="slider__container">
-                        <div class="slide"></div>
-                        <div class="slide"></div>
-                        <div class="slide"></div>
-                        <div class="slide"></div>
-                        <div class="slide"></div>
-                    </div>
-                    <button class="pagination__button">
-                        <img class="pagination__arrow-right" src="/src/images/carousel-button-right.svg" alt="стрелка вправо">
-                    </button>
-                </div>
             </ul>
+            <div class="slider">
+                <button class="slider__button slider-btn-left">
+                    <img class="slider__arrow-left" src="/src/images/carousel-button-left.svg" alt="стрелка влево">
+                </button>
+                <div class="slider__container">
+                    <div class="slide"></div>
+                    <div class="slide"></div>
+                    <div class="slide"></div>
+                    <div class="slide"></div>
+                    <div class="slide"></div>
+                </div>
+                <button class="slider__button slider-btn-right">
+                    <img class="slider__arrow-right" src="/src/images/carousel-button-right.svg" alt="стрелка вправо">
+                </button>
+            </div>
         </main>
     </section>
 
@@ -139,13 +143,13 @@
             <div class="competitors__header-container">
                 <h2 class="competitors__header">Участники турнира</h2>
                 <div class="pagination">
-                    <button class="pagination__button">
+                    <button class="pagination__button btn-left">
                         <img class="pagination__arrow-left" src="/src/images/carousel-button-left.svg" alt="стрелка влево">
                     </button>
                     <p class="pagination__count">
-                        <span class="highlight">3</span>
-                        / 6 </p>
-                    <button class="pagination__button">
+                        <span class="highlight"></span>
+                        / <span class="total"></span></p>
+                    <button class="pagination__button btn-right">
                         <img class="pagination__arrow-right" src="/src/images/carousel-button-right.svg" alt="стрелка вправо">
                     </button>
                 </div>
@@ -169,6 +173,24 @@
                     <p class="competitors__position">Чемпион мира по шахматам</p>
                     <button class="competitors__details-btn">Подробнее</button>
                 </article>
+                <article class="competitors__competitor-card">
+                    <img class="competitors__avatar" src="/src/images/competitor-avatar.svg" alt="аватарка участника">
+                    <h3 class="competitors__name">Арон Нимцович</h3>
+                    <p class="competitors__position">Чемпион мира по шахматам</p>
+                    <button class="competitors__details-btn">Подробнее</button>
+                </article>
+                <article class="competitors__competitor-card">
+                    <img class="competitors__avatar" src="/src/images/competitor-avatar.svg" alt="аватарка участника">
+                    <h3 class="competitors__name">Рихард Рети</h3>
+                    <p class="competitors__position">Чемпион мира по шахматам</p>
+                    <button class="competitors__details-btn">Подробнее</button>
+                </article>
+                <article class="competitors__competitor-card">
+                    <img class="competitors__avatar" src="/src/images/competitor-avatar.svg" alt="аватарка участника">
+                    <h3 class="competitors__name">Остап Бендер</h3>
+                    <p class="competitors__position">Чемпион мира по шахматам</p>
+                    <button class="competitors__details-btn">Подробнее</button>
+                </article>
             </section>
         </main>
     </section>
@@ -177,5 +199,8 @@
         <div class="footer__container"></div>
         <p class="footer__text">Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».</p>
     </footer>
+    <script src="/src/scripts/anchorScroll.js"></script>
+    <script src="/src/scripts/carouselParticipants.js"></script>
+    <script src="/src/scripts/stagesSlider.js"></script>
 </body>
 </html>

@@ -16,3 +16,15 @@
         justify-content: center;
     }    
 }
+
+@media screen and (max-width: 854px) {
+    .welcome-section__content-wrapper {
+        padding: 0;
+    }    
+}
+
+@media screen and (max-width: 595px) {
+    .welcome-section__content-wrapper {
+        padding: 0 20px;
+    }    
+}

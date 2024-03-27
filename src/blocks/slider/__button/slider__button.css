@@ -1,4 +1,4 @@
-.pagination__button {
+.slider__button {
     width: 44px;
     height: 44px;
     display: flex;
@@ -17,16 +17,16 @@
     -o-border-radius: 50%;
 }
 
-.pagination__button:not(.pagination__button_disabled):hover {
+.slider__button:not(.slider__button_disabled):hover {
     background-color: #FBCE51;
 }
 
-.pagination__button_disabled {
+.slider__button_disabled {
     background-color: #D6D6D6;
 }
 
 @media screen and (max-width: 990px) {
-    .pagination__button {
+    .slider__button {
         width: 36px;
         height: 36px;
     }

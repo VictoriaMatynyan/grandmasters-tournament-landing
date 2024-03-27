@@ -10,9 +10,17 @@
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 1085px) {
+    .event__title {
+        font-size: 30px;
+        line-height: 40.5px;
+    }
+}
+
 @media screen and (max-width: 990px) {
     .event__title {
         font-size: 30px;
         line-height: 40.5px;
     }
 }
+

@@ -1,5 +1,5 @@
 .competitors__header {
-    width: 806px;
+    max-width: 806px;
     font-family: 'Merriweather';
     font-size: 54px;
     font-weight: 400;
@@ -12,7 +12,15 @@
 
 @media screen and (max-width: 990px) {
     .competitors__header {
+        width: 100%;
         font-size: 45px;
         line-height: 54px;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .competitors__header {
+        font-size: 36px;
+        line-height: 39.6px;
     }
 }

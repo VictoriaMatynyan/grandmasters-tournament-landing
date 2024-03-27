@@ -23,3 +23,15 @@
         -o-transform: translateX(-50%);
     }    
 }
+
+@media screen and (max-width: 595px) {
+    .welcome-section__city-wrapper {
+        width: 754px;
+        height: 200px;
+        transform: translateX(-60%);
+        -webkit-transform: translateX(-60%);
+        -moz-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+        -o-transform: translateX(-60%);
+}    
+}

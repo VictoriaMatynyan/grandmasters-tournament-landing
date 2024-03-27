@@ -9,7 +9,7 @@
     border-left: 2px solid #D0D0D0;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1085px) {
     .event__info-table-data {
         padding-bottom: 12px;
         padding-top: 16px;

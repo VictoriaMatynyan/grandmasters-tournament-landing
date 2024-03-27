@@ -10,3 +10,11 @@
     background-color: #F54932;
     color: #fff;
 }
+
+@media screen and (max-width: 595px) {
+    .running-line {
+        font-size: 16px;
+        line-height: 17.6px;
+        padding: 10px 0 10px 0;
+    }
+}

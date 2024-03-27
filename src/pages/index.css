@@ -54,6 +54,11 @@
 @import url(../blocks/stages/__item-text/stages__item-text.css);
 @import url(../blocks/stages/__image/stages__image.css);
 
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__container/slider__container.css);
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slide/slide.css);
+
 @import url(../blocks/competitors/competitors.css);
 @import url(../blocks/competitors/__content-wrapper/competitors__content-wrapper.css);
 @import url(../blocks/competitors/__header-container/competitors__header-container.css);
@@ -64,6 +69,7 @@
 @import url(../blocks/competitors/__name/competitors__name.css);
 @import url(../blocks/competitors/__position/competitors__position.css);
 @import url(../blocks/competitors/__details-btn/competitors__details-btn.css);
+@import url(../blocks/pagination/__arrow-left/pagination__arrow-left.css);
 
 @import url(../blocks/pagination/pagination.css);
 @import url(../blocks/pagination/__count/pagination__count.css);

@@ -18,7 +18,7 @@
     padding-bottom: 0;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1085px) {
     .event__info-table-row {
         flex-direction: column;
     }

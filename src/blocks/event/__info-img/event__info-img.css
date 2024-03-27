@@ -8,3 +8,9 @@
         height: 509px;
     }
 }
+
+@media screen and (max-width: 475px) {
+    .event__info-img {
+        height: 402px;
+    }
+}

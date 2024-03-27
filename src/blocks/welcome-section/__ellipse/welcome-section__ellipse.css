@@ -18,3 +18,12 @@
         height: 390px;
     }  
  }
+
+ @media screen and (max-width: 595px) {
+    .welcome-section__ellipse {
+        top: 370px;
+        left: -90px;
+        width: 300px;
+        height: 300px;
+    }  
+ }

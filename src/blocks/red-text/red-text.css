@@ -7,7 +7,7 @@
     color: #F54932;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1085px) {
     .red-text {
         font-size: 30px;
         line-height: 40.5px;

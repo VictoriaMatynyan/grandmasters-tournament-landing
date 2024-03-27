@@ -10,3 +10,10 @@
     color: #3057A2;
     text-transform: initial;
 }
+
+@media screen and (max-width: 680px) {
+    .stages__span-text {
+        padding: 0;
+       
+    }
+}

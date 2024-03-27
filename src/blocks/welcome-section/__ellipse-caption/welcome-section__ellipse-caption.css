@@ -15,3 +15,12 @@
         height: 500px;
     }  
  }
+
+@media screen and (max-width: 595px) {
+    .welcome-section__ellipse-caption {
+        top: 350px;
+        left: -115px;
+        width: 340px;
+        height: 390px;
+    }  
+ }
