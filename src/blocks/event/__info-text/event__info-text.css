@@ -8,3 +8,11 @@
     color: #3057A2;
     margin: 0;
 }
+
+@media screen and (max-width: 375px) {
+    .event__info-text {
+        padding-top: 39px;
+        font-size: 18px;
+        line-height: 21.6px;
+    }
+}

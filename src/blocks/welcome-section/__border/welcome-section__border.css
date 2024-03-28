@@ -21,3 +21,11 @@
         left: -12px;
     }    
 }
+
+@media screen and (max-width: 375px) {
+    .welcome-section__border {
+        width: 885.95px;
+        bottom: 0;
+        left: -12px;
+    }    
+}

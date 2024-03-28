@@ -33,6 +33,7 @@
 
 @media screen and (max-width: 375px) {
     .pagination {
-        left: 26%;
+        left: 30%;
+        max-width: 129px;
     }
 }

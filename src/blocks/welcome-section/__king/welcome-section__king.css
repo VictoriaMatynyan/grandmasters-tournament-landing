@@ -32,5 +32,17 @@
         -moz-transform: translateX(-12px);
         -ms-transform: translateX(-12px);
         -o-transform: translateX(-12px);
-}    
+    }    
+}
+
+@media screen and (max-width: 375px) {
+    .welcome-section__king {
+        height: 120px;
+        top: 543px;
+        transform: translateX(-65px);
+        -webkit-transform: translateX(-65px);
+        -moz-transform: translateX(-65px);
+        -ms-transform: translateX(-65px);
+        -o-transform: translateX(-65px);
+    }    
 }

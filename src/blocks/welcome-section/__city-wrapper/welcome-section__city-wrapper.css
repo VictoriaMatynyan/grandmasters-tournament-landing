@@ -33,5 +33,17 @@
         -moz-transform: translateX(-60%);
         -ms-transform: translateX(-60%);
         -o-transform: translateX(-60%);
-}    
+    }    
+}
+
+@media screen and (max-width: 375px) {
+    .welcome-section__city-wrapper {
+        width: 885.95px;
+        height: 235px;
+        transform: translateX(-66%);
+        -webkit-transform: translateX(-66%);
+        -moz-transform: translateX(-66%);
+        -ms-transform: translateX(-66%);
+        -o-transform: translateX(-66%);
+    }    
 }

@@ -24,3 +24,9 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .event__title {
+        font-size: 28px;
+        line-height: 37.8px;
+    }
+}

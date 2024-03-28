@@ -18,3 +18,13 @@
         border: none;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .event__info-table-data {
+        padding-bottom: 13px;
+        padding-top: 16px;
+    }
+    .event__info-table-data + .event__info-table-data {
+        border: none;
+    }
+}

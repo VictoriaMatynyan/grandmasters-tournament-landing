@@ -1,31 +1,35 @@
-.stages__image {
+.stages__image-desktop {
     position: absolute;
     left: 57%;
     bottom: 0;
 }
 
+.stages__image-mobile {
+    display: none;
+}
+
 @media screen and (max-width: 1304px) {
-    .stages__image {
+    .stages__image-desktop {
         max-width: 320px;
         max-height: 188px;
     }
 }
 
 @media screen and (max-width: 1296px) {
-    .stages__image {
+    .stages__image-desktop {
         left: 65%;
     }
 }
 
 @media screen and (max-width: 1212px) {
-    .stages__image {
+    .stages__image-desktop {
         max-width: 275px;
         max-height: 162px;
     }
 }
 
 @media screen and (max-width: 1150px) {
-    .stages__image {
+    .stages__image-desktop {
         max-width: 240px;
         max-height: 141px;
         bottom: 10px;
@@ -34,10 +38,16 @@
 }
 
 @media screen and (max-width: 990px) {
-    .stages__image {
-        max-width: 335px;
-        max-height: 182px;
-        left: 5%;
-        top: -100px;
+    .stages__image-desktop {
+        display: none;
+    } 
+    .stages__image-mobile {
+        display: flex;
+        position: absolute;
+        max-width: 358.8px;
+        max-height: 195px;
+        left: 15px;
+        top: -130px;
+        rotate: -4deg;
     }
 }

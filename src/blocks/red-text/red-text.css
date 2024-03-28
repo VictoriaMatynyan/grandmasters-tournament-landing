@@ -13,3 +13,10 @@
         line-height: 40.5px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .red-text {
+        font-size: 28px;
+        line-height: 37.8px;
+    }
+}

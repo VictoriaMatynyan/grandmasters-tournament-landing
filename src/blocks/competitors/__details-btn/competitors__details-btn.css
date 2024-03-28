@@ -21,3 +21,10 @@
     background-color: #3057A2;
     color: #fff;
 }
+
+@media screen and (max-width: 475px) {
+    .competitors__details-btn {
+        padding: 6px 12px;
+        margin-top: 5px;
+    }
+}

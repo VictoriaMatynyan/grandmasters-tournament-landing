@@ -30,5 +30,17 @@
         -moz-transform: translateX(120px);
         -ms-transform: translateX(120px);
         -o-transform: translateX(120px);
+    }    
+}
+
+@media screen and (max-width: 595px) {
+    .welcome-section__knight {
+        height: 114px;
+        width: 102px;
+        transform: translateX(60px);
+        -webkit-transform: translateX(60px);
+        -moz-transform: translateX(60px);
+        -ms-transform: translateX(60px);
+        -o-transform: translateX(60px);
 }    
 }

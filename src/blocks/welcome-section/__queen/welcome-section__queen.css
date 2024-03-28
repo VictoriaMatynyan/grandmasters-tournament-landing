@@ -34,3 +34,16 @@
         -o-transform: translateX(130px);
     }    
 }
+
+@media screen and (max-width: 375px) {
+    .welcome-section__queen {
+        height: 110px;
+        rotate: 6deg;
+        top: 490px;
+        transform: translateX(103px);
+        -webkit-transform: translateX(103px);
+        -moz-transform: translateX(103px);
+        -ms-transform: translateX(103px);
+        -o-transform: translateX(103px);
+}    
+}

@@ -23,3 +23,19 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .event__info-table-row .info {
+    padding-top: 0;
+    }
+    .event__info-table-row:nth-child(4) {
+        flex-direction: row;
+        align-items: baseline;
+    }
+    .event__info-table-row:nth-child(4) > .title {
+        width: 141px;
+    }
+    .event__info-table-row:last-child .title {
+    padding-bottom: 15px;
+}
+}

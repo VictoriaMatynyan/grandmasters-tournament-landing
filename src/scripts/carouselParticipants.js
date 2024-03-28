@@ -1,13 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
     const participants = document.querySelectorAll('.competitors__competitor-card');
     const totalParticipants = participants.length;
-    let currentIndex = 0;
+    let currentIndex = 0; // индекс текущей карточки
 
     function displayParticipants(startIndex, displayCount) {
-        // Скрываем все карточки
+        // скрываем все карточки
         participants.forEach(participant => participant.style.display = 'none');
-        // Отображаем карточки, начиная с startIndex
+        // отображаем карточки, начиная с startIndex
         for (let i = 0; i < displayCount; i++) {
+            // % - оператором остатка от деления не даём выйти циклу за пределы длины массива
             participants[(startIndex + i) % totalParticipants].style.display = 'flex';
         }
     }
@@ -51,9 +52,8 @@ document.addEventListener('DOMContentLoaded', function () {
             updateButtons();
         }
 
-        // window.addEventListener('resize', updatePaginationCounter);
         window.addEventListener('resize', function () {
-            currentIndex = 0; // Обнуляем currentIndex при изменении размера окна
+            currentIndex = 0; // обнуляем currentIndex при изменении размера окна
             updatePaginationCounter();
         });
         window.addEventListener('load', function () {
@@ -75,15 +75,6 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
 
-        function clickLeft() {
-            if (state.currentPage > 1) {
-                state.currentPage--;
-                displayParticipants(state.currentPage, state.cardsPerPage);
-                pagination.count.textContent = state.cardsPerPage;
-                updateButtons();
-            }
-        }
-
         function clickRight() {
             if (state.currentPage < Math.ceil(participants.length / state.cardsPerPage)) {
                 state.currentPage++;
@@ -93,6 +84,15 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
 
+        function clickLeft() {
+            if (state.currentPage > 1) {
+                state.currentPage--;
+                displayParticipants(state.currentPage, state.cardsPerPage);
+                pagination.count.textContent = state.cardsPerPage;
+                updateButtons();
+            }
+        }
+       
         pagination.left.addEventListener('click', clickLeft);
         pagination.right.addEventListener('click', clickRight);
 

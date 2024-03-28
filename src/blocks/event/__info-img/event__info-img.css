@@ -14,3 +14,12 @@
         height: 402px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .event__info-img {
+        margin-top: -35px;
+        margin-left: 0px;
+        /* height: 100%; */
+        max-width: 335px;
+    }
+}

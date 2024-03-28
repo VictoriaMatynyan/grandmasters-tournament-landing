@@ -18,11 +18,13 @@
 }
 
 .stages__item:nth-child(7) .stages__item-text {
-    max-width: 100%;
+    /* max-width: 100%; */
+    max-width: 446px;
 }
 
 @media screen and (max-width: 990px) {
     .stages__item:nth-child(1) {
+        position: relative;
         height: fit-content;
         padding-top: 64px;
         padding-bottom: 0;
@@ -79,5 +81,8 @@
         grid-row: span 2;
         height: 216px;
         display: none;
+    }
+    .stages__item:nth-child(7).stages__item-text {
+       width: 100%;
     }
 }

@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 450px) {
     .stages__content {
+        margin-top: 145px;
         grid-template-columns: 335px;
     }
-    
 }

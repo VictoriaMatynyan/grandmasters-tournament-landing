@@ -7,6 +7,6 @@
 @media screen and (max-width: 875px) {
     .event__info {
         flex-direction: column;
-        gap: 24px;
+        gap: 32px;
     }
 }
