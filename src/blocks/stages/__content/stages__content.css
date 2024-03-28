@@ -23,3 +23,11 @@
         grid-template-columns: 335px;
     }
 }
+
+@media screen and (min-width: 990px) {
+    .stages__content {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 112px) 136px;
+        gap: 20px;
+    }
+}

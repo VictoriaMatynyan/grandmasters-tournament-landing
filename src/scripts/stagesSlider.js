@@ -74,44 +74,35 @@ function displayStages() {
         });
     });
     
-
     function showSlide(index) {
-    
-
-    // Затем отображаем карточку, соответствующую переданному индексу
     if (window.innerWidth < 990) {
-        // Сначала скрываем все карточки
-    const hideCards = stages.forEach(stage => {
-        stage.style.display = "none";
-    });
+        // сначала скрываем все карточки
+        const hideCards = stages.forEach(stage => {
+            stage.style.display = "none";
+        });
+
         if (index === 0) {
+            hideCards;
             stages[0].style.display = "flex";
             stages[1].style.display = "flex";
-            // stages[4].style.display = "none";
-            hideCards;
         }
         if (index === 2) {
-            // stages[4].style.display = "none";
-            updateActiveDot(1);
             hideCards;
+            updateActiveDot(1);
         }
         if (index === 3) {
-            // stages[2].style.display = "none";
+            hideCards;
             stages[3].style.display = "flex";
             stages[4].style.display = "flex";
-            // stages[5].style.display = "none";
-            hideCards;
             updateActiveDot(2);
         }
         if (index === 4) {
-            // stages[4].style.display = "none";
             hideCards;
             stages[5].style.display = "flex";
             updateActiveDot(3);
         } else if (index === 5) {
             hideCards
             stages[6].style.display = "flex";
-            // stages[5].style.display = "none";
             updateActiveDot(4);
         }
         else {

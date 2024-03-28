@@ -18,7 +18,6 @@
 }
 
 .stages__item:nth-child(7) .stages__item-text {
-    /* max-width: 100%; */
     max-width: 446px;
 }
 
