@@ -1,0 +1,25 @@
+.welcome-section__title {
+    font-family: 'Merriweather';
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 66px;
+    color: #313131;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 990px) {
+    .welcome-section__title {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 50px;
+    }  
+ }
+
+@media screen and (max-width: 595px) {
+    .welcome-section__title {
+        font-size: 36px;
+        line-height: 39.6px;
+    }  
+ }

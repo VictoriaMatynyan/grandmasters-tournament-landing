@@ -1,0 +1,30 @@
+.welcome-section__content-wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding-left: 144px;
+}
+
+@media screen and (max-width: 1512px) {
+    .welcome-section__content-wrapper {
+        padding-left: 72px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .welcome-section__content-wrapper {
+        display: flex;
+        justify-content: center;
+    }    
+}
+
+@media screen and (max-width: 854px) {
+    .welcome-section__content-wrapper {
+        padding: 0;
+    }    
+}
+
+@media screen and (max-width: 595px) {
+    .welcome-section__content-wrapper {
+        padding: 0 20px;
+    }    
+}

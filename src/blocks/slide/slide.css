@@ -1,0 +1,16 @@
+@media screen and (max-width: 990px) {
+    .slide {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #D9D9D9;
+        cursor: pointer;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .slide.active {
+        background-color: var(--text-color);
+    }
+}

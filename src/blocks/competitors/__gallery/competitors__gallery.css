@@ -1,0 +1,11 @@
+.competitors__gallery {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 475px) {
+    .competitors__gallery {
+        margin-top: 40px;
+    }
+}

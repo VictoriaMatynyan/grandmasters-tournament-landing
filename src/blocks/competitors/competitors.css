@@ -1,0 +1,19 @@
+.competitors {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 72px 140px;
+}
+
+@media screen and (min-width: 1367px) {
+    .competitors {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .competitors {
+        margin: 120px 20px 100px;
+    }
+    
+}

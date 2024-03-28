@@ -1,0 +1,19 @@
+.event__title-image-right {
+    width: 394px;
+}
+
+.event__title-image-left {
+    display: none;
+}
+
+@media screen and (max-width: 890px) {
+    .event__title-image-left {
+        display: flex;
+        width: 335px;
+        padding: 24px 0;
+        margin: 0 auto;
+    }
+    .event__title-image-right {
+        display: none;
+    }
+}

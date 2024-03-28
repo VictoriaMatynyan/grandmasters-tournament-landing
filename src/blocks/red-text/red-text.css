@@ -1,0 +1,22 @@
+.red-text {
+    font-family: 'Merriweather';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48.6px;
+    text-align: left;
+    color: #F54932;
+}
+
+@media screen and (max-width: 1085px) {
+    .red-text {
+        font-size: 30px;
+        line-height: 40.5px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .red-text {
+        font-size: 28px;
+        line-height: 37.8px;
+    }
+}

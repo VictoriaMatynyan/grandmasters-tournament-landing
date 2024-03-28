@@ -1,0 +1,25 @@
+.event__info-img {
+    margin-top: -47px;
+    margin-left: -28px;
+}
+
+@media screen and (max-width: 990px) {
+    .event__info-img {
+        height: 509px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .event__info-img {
+        height: 402px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .event__info-img {
+        margin-top: -35px;
+        margin-left: 0px;
+        /* height: 100%; */
+        max-width: 335px;
+    }
+}

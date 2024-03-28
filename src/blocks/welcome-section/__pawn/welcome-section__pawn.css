@@ -1,0 +1,17 @@
+.welcome-section__pawn {
+    display: flex;
+    position: absolute;
+    right: 50%;
+    bottom: 19px;
+    transform: translateX(640px);
+    -webkit-transform: translateX(640px);
+    -moz-transform: translateX(640px);
+    -ms-transform: translateX(640px);
+    -o-transform: translateX(640px);
+}
+
+@media screen and (max-width: 1125px) {
+    .welcome-section__pawn {
+        display: none;
+    }    
+}

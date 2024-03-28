@@ -1,0 +1,15 @@
+.info {
+    font-family: 'GolosText-Medium';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-left: 16px;
+    text-align: left;
+    color: var(--text-color);
+}
+
+@media screen and (max-width: 990px) {
+    .info {
+        padding-left: 0;
+    }
+}

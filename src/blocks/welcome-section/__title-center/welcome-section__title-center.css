@@ -1,0 +1,5 @@
+.welcome-section__title-center {
+    display: flex;
+    justify-content: center;
+    letter-spacing: -0.8px;
+}

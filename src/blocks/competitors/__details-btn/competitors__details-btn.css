@@ -1,0 +1,30 @@
+.competitors__details-btn {
+    font-family: 'GolosText-Regular';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    color: #3057A2;
+    padding: 12px;
+    width: fit-content;
+    background-color: transparent;
+    border: 1px solid #3057A2;
+    outline: none;
+    cursor: pointer;
+    border-radius: 62px;
+    -webkit-border-radius: 62px;
+    -moz-border-radius: 62px;
+    -ms-border-radius: 62px;
+    -o-border-radius: 62px;
+}
+
+.competitors__details-btn:hover {
+    background-color: #3057A2;
+    color: #fff;
+}
+
+@media screen and (max-width: 475px) {
+    .competitors__details-btn {
+        padding: 6px 12px;
+        margin-top: 5px;
+    }
+}

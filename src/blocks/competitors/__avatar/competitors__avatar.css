@@ -1,0 +1,11 @@
+.competitors__avatar {
+    width: 320px;
+    height: 320px;
+}
+
+@media screen and (max-width: 475px) {
+    .competitors__avatar {
+        width: 244px;
+        height: 244px;
+    } 
+}

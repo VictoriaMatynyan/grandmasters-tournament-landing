@@ -1,0 +1,32 @@
+.event__title {
+    max-width: 764px;
+    font-family: 'Merriweather';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48.6px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1085px) {
+    .event__title {
+        font-size: 30px;
+        line-height: 40.5px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .event__title {
+        font-size: 30px;
+        line-height: 40.5px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .event__title {
+        font-size: 28px;
+        line-height: 37.8px;
+    }
+}

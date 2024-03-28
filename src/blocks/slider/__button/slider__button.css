@@ -1,0 +1,33 @@
+.slider__button {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    background-color: #313131;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.slider__button:not(.slider__button_disabled):hover {
+    background-color: #FBCE51;
+}
+
+.slider__button_disabled {
+    background-color: #D6D6D6;
+}
+
+@media screen and (max-width: 990px) {
+    .slider__button {
+        width: 36px;
+        height: 36px;
+    }
+}

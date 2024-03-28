@@ -1,0 +1,19 @@
+.stages {
+    margin: 165px 72px 0;
+    /* margin: 200px 72px 0; (по макету - 200px) */
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1367px) {
+    .stages {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .stages {
+        margin: 120px 20px 0;
+    }
+}

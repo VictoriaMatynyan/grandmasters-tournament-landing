@@ -1,0 +1,46 @@
+.welcome-section__knight {
+    display: flex;
+    position: absolute;
+    right: 50%;
+    transform: translateX(350px);
+    bottom: 0;
+    -webkit-transform: translateX(350px);
+    -moz-transform: translateX(350px);
+    -ms-transform: translateX(350px);
+    -o-transform: translateX(350px);
+}
+
+
+@media screen and (max-width: 990px) {
+    .welcome-section__knight {
+        height: 150px;
+        transform: translateX(270px);
+        -webkit-transform: translateX(270px);
+        -moz-transform: translateX(270px);
+        -ms-transform: translateX(270px);
+        -o-transform: translateX(270px);
+    }    
+}
+
+@media screen and (max-width: 595px) {
+    .welcome-section__knight {
+        height: 121px;
+        transform: translateX(120px);
+        -webkit-transform: translateX(120px);
+        -moz-transform: translateX(120px);
+        -ms-transform: translateX(120px);
+        -o-transform: translateX(120px);
+    }    
+}
+
+@media screen and (max-width: 595px) {
+    .welcome-section__knight {
+        height: 114px;
+        width: 102px;
+        transform: translateX(60px);
+        -webkit-transform: translateX(60px);
+        -moz-transform: translateX(60px);
+        -ms-transform: translateX(60px);
+        -o-transform: translateX(60px);
+}    
+}

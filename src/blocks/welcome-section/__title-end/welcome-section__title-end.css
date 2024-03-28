@@ -1,0 +1,5 @@
+.welcome-section__title-end {
+    display: flex;
+    justify-content: flex-end;
+    letter-spacing: -0.8;
+}

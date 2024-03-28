@@ -1,0 +1,21 @@
+.stages__item-text {
+    margin: 0;
+    max-width: 302px;
+    font-family: 'GolosText-Regular';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.stages__item-text:nth-child(7) {
+    max-width: 446px;
+}
+
+@media screen and (max-width: 990px) {
+    .stages__item-text {
+        width: 239px;
+        font-size: 18px;
+        line-height: 21.6px;
+    } 
+}

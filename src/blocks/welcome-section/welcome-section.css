@@ -1,0 +1,35 @@
+.welcome-section {
+    position: relative;
+    /* max-width: 1920px; */
+    width: 100vw;
+    height: 700px;
+    background-image: url('../../images/background-paper.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.welcome-section__overlay {
+    background-color: #E9DED4;
+    opacity: .8;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    height: 700px;
+    z-index: -10;
+}
+
+@media screen and (max-width: 990px) {
+    .welcome-section, .welcome-section__overlay {
+        height: 812px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .welcome-section, .welcome-section__overlay {
+        height: 774px;
+    }
+}

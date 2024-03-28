@@ -1,0 +1,8 @@
+.page {
+    /* max-width: 1920px;
+    min-width: 345px; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}

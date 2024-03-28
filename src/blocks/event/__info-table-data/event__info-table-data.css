@@ -1,0 +1,30 @@
+.event__info-table-data {
+    margin: 0;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+/* ставим бордер только между двумя ячейками, не снаружи */
+.event__info-table-data + .event__info-table-data {
+    border-left: 2px solid #D0D0D0;
+}
+
+@media screen and (max-width: 1085px) {
+    .event__info-table-data {
+        padding-bottom: 12px;
+        padding-top: 16px;
+    }
+    .event__info-table-data + .event__info-table-data {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .event__info-table-data {
+        padding-bottom: 13px;
+        padding-top: 16px;
+    }
+    .event__info-table-data + .event__info-table-data {
+        border: none;
+    }
+}

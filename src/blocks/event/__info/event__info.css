@@ -1,0 +1,12 @@
+.event__info {
+    display: flex;
+    gap: 17px;
+    margin-top: 64px;
+}
+
+@media screen and (max-width: 875px) {
+    .event__info {
+        flex-direction: column;
+        gap: 32px;
+    }
+}

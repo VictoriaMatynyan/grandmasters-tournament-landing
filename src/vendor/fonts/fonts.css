@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Merriweather';
+    src: url("./Merriweather-Regular.woff2") format('woff2'),
+    url("./Merriweather-Regular.woff") format('woff'),
+    url("./Merriweather-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'GolosText-Regular';
+    src: url("./GolosText-Regular.woff2") format('woff2'),
+    url("./GolosText-Regular.woff") format('woff'),
+    url("./GolosText-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'GolosText-Medium';
+    src: url("./GolosText-Medium.woff2") format('woff2'),
+    url("./GolosText-Medium.woff") format('woff'),
+    url("./GolosText-Medium.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'GolosText-SemiBold';
+    src: url("./GolosText-DemiBold.woff2") format('woff2'),
+    url("./GolosText-DemiBold.woff") format('woff'),
+    url("./GolosText-SemiBold.ttf") format('truetype');
+}

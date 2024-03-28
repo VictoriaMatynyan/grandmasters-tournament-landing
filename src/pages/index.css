@@ -1,0 +1,80 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/welcome-section/welcome-section.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/welcome-section/__content/welcome-section__content.css);
+@import url(../blocks/welcome-section/__content-wrapper/welcome-section__content-wrapper.css);
+@import url(../blocks/welcome-section/__title/welcome-section__title.css);
+@import url(../blocks/welcome-section/__title-center/welcome-section__title-center.css);
+@import url(../blocks/welcome-section/__title-end/welcome-section__title-end.css);
+@import url(../blocks/welcome-section/__subtitle/welcome-section__subtitle.css);
+@import url(../blocks/welcome-section/__nav/welcome-section__nav.css);
+@import url(../blocks/welcome-section/__nav-button/welcome-section__nav-button.css);
+
+@import url(../blocks/welcome-section/__city-wrapper/welcome-section__city-wrapper.css);
+@import url(../blocks/welcome-section/__border/welcome-section__border.css);
+@import url(../blocks/welcome-section/__city/welcome-section__city.css);
+@import url(../blocks/welcome-section/__ellipse-wrapper/welcome-section__ellipse-wrapper.css);
+@import url(../blocks/welcome-section/__ellipse/welcome-section__ellipse.css);
+@import url(../blocks/welcome-section/__ellipse-caption/welcome-section__ellipse-caption.css);
+@import url(../blocks/welcome-section/__queen/welcome-section__queen.css);
+@import url(../blocks/welcome-section/__king/welcome-section__king.css);
+@import url(../blocks/welcome-section/__knight/welcome-section__knight.css);
+@import url(../blocks/welcome-section/__pawn/welcome-section__pawn.css);
+
+@import url(../blocks/running-line/running-line.css);
+@import url(../blocks/red-text/red-text.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/info/info.css);
+@import url(../blocks/crossed-text/crossed-text.css);
+
+@import url(../blocks/event/event.css);
+@import url(../blocks/event/__content/event__content.css);
+@import url(../blocks/event/__title-wrapper/event__title-wrapper.css);
+@import url(../blocks/event/__title/event__title.css);
+@import url(../blocks/event/__title-image/event__title-image.css);
+@import url(../blocks/event/__info/event__info.css);
+@import url(../blocks/event/__info-img/event__info-img.css);
+@import url(../blocks/event/__info-table/event__info-table.css);
+@import url(../blocks/event/__info-table-row/event__info-table-row.css);
+@import url(../blocks/event/__info-table-data/event__info-table-data.css);
+@import url(../blocks/event/__info-text/event__info-text.css);
+
+@import url(../blocks/stages/stages.css);
+@import url(../blocks/stages/__content-wrapper/stages__content-wrapper.css);
+@import url(../blocks/stages/__title/stages__title.css);
+@import url(../blocks/stages/__span-text/stages__span-text.css);
+@import url(../blocks/stages/__content/stages__content.css);
+@import url(../blocks/stages/__item/stages__item.css);
+@import url(../blocks/stages/__item-number/stages__item-number.css);
+@import url(../blocks/stages/__item-text/stages__item-text.css);
+@import url(../blocks/stages/__image/stages__image.css);
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__container/slider__container.css);
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slide/slide.css);
+
+@import url(../blocks/competitors/competitors.css);
+@import url(../blocks/competitors/__content-wrapper/competitors__content-wrapper.css);
+@import url(../blocks/competitors/__header-container/competitors__header-container.css);
+@import url(../blocks/competitors/__header/competitors__header.css);
+@import url(../blocks/competitors/__gallery/competitors__gallery.css);
+@import url(../blocks/competitors/__competitor-card/competitors__competitor-card.css);
+@import url(../blocks/competitors/__avatar/competitors__avatar.css);
+@import url(../blocks/competitors/__name/competitors__name.css);
+@import url(../blocks/competitors/__position/competitors__position.css);
+@import url(../blocks/competitors/__details-btn/competitors__details-btn.css);
+@import url(../blocks/pagination/__arrow-left/pagination__arrow-left.css);
+
+@import url(../blocks/pagination/pagination.css);
+@import url(../blocks/pagination/__count/pagination__count.css);
+@import url(../blocks/pagination/__button/pagination__button.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__text/footer__text.css);

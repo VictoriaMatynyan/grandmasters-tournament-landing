@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Victoria Matynyan">
+    <meta name="description" content="test task: landing page about chess">
+    <meta name="keywords" content="html, html5, css, css3, javascript, landing page">
+    <link rel="stylesheet" href="/src/pages/index.css">
+    <title>Клуб четырех коней</title>
+</head>
+<body class="page">
+    <section class="welcome-section">
+        <div class="welcome-section__overlay"></div>
+        <header class="header">
+            <img class="header__logo" src="/src/images/logo.svg" alt="Логотип Клуба четырех коней">
+        </header>
+        <main class="welcome-section__content-wrapper">
+            <article class="welcome-section__content">
+                <h1 class="welcome-section__title">
+                    <span class="welcome-section__title-left">Превратите уездный город</span>
+                    <span class="welcome-section__title-center">в столицу</span>
+                    <span class="welcome-section__title-end">земного шара</span>
+                </h1>
+                <p class="welcome-section__subtitle">Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам</p>
+                <nav class="welcome-section__nav">
+                    <a class="welcome-section__nav-button support" href="#support">Поддержать шахматную мысль</a>
+                    <a class="welcome-section__nav-button details" href="#details">Подробнее о турнире</a>
+                </nav>
+            </article>
+            <div class="welcome-section__ellipse-wrapper">
+                <div class="welcome-section__ellipse"></div>
+                <img class="welcome-section__ellipse-caption" src="/src/images/print-on-the-ellipse.svg" alt="надписи на жёлтом круге">
+            </div>
+            <img class="welcome-section__queen" src="/src/images/queen-piece.png" alt="шахматная фигура ферзя">
+            <img class="welcome-section__king" src="/src/images/king-piece.png" alt="шахматная фигура короля">
+            <div class="welcome-section__city-wrapper">
+                <img class="welcome-section__border" src="/src/images/path.png" alt="белая линия для обведения границ картинки города">
+                <img class="welcome-section__city" src="/src/images/city.png" alt="картинка с городом на шахматной доске">
+            </div>
+            <img class="welcome-section__knight" src="/src/images/knight-piece.png" alt="шахматная фигура коня">
+            <img class="welcome-section__pawn" src="/src/images/pawn-piece.png" alt="шахматная фигура пешки">
+        </main>
+    </section>
+    <marquee class="running-line">Дело помощи утопающим — дело рук самих утопающих! &#183; Шахматы двигают вперед не только культуру, но и экономику! &#183; Лед тронулся, господа присяжные заседатели!</marquee>
+
+    <section class="event" id="support">
+        <main class="event__content">
+            <div class="event__title-wrapper">
+                <h2 class="event__title">
+                    Чтобы&nbsp;поддержать Международный васюкинский турнир
+                    <img class="event__title-image-left" src="/src/images/info-image.svg" alt="гроссмейстеры играют в шахматную партию">
+                    <span class="event__title-end">посетите лекцию на тему:</span>
+                    <span class="red-text">«Плодотворная дебютная идея»</span>
+                </h2>
+                <img class="event__title-image-right" src="/src/images/info-image.svg" alt="гроссмейстеры играют в шахматную партию">
+            </div>
+            <section class="event__info">
+                <img class="event__info-img" src="/src/images/info-event-poster.svg" alt="постер для шахматного турнира">
+                <article class="event__info-content">
+                    <h2 class="event__title">и Сеанс <span class="red-text">одновременной игры в шахматы на 160 досках</span> гроссмейстера О. Бендера</h2>
+                    <dl class="event__info-table">
+                        <div class="event__info-table-row">
+                            <dt class="event__info-table-data title">Место проведения:</dt>
+                            <dd class="event__info-table-data info">Клуб «Картонажник»</dd>
+                        </div>
+                        <div class="event__info-table-row">
+                            <dt class="event__info-table-data title">Дата и время мероприятия:</dt>
+                            <dd class="event__info-table-data info">22 июня 1927 г. в 18:00</dd>
+                        </div>
+                        <div class="event__info-table-row">
+                            <dt class="event__info-table-data title">Стоимость входных билетов:</dt>
+                            <dd class="event__info-table-data info">20 коп.</dd>
+                        </div>
+                        <div class="event__info-table-row">
+                            <dt class="event__info-table-data title">Плата за игру:</dt>
+                            <dd class="event__info-table-data info">50 коп.</dd>
+                        </div>
+                        <div class="event__info-table-row">
+                            <dt class="event__info-table-data title">Взнос на телеграммы:</dt>
+                            <dd class="event__info-table-data info"><span class="crossed-text">100 руб.</span> 21 руб. 16 коп.</dd>
+                        </div>
+                    </dl>
+                    <p class="event__info-text">По всем вопросам обращаться в администрацию к К. Михельсону</p>
+                  </article>
+            </section>
+        </main>
+    </section>
+
+    <section class="stages">
+        <main class="stages__content-wrapper">
+            <h2 class="stages__title">Этапы преображения Васюков<span class="stages__span-text">Будущие источники обогащения васюкинцев</span></h2>
+            <ul class="stages__content" area-label="этапы преображения васюков">
+                <li class="stages__item">
+                    <div class="stages__item-number">1</div>
+                    <p class="stages__item-text">Строительство железнодорожной магистрали Москва-Васюки</p>
+                    <img class="stages__image-mobile" src="/src/images/plane.svg" alt="фото биплана">
+                </li>
+                <li class="stages__item">
+                    <div class="stages__item-number">2</div>
+                    <p class="stages__item-text">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</p>
+                <li class="stages__item">
+                    <div class="stages__item-number">3</div>
+                    <p class="stages__item-text">Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</p>
+                </li>
+                <li class="stages__item">
+                    <div class="stages__item-number">4</div>
+                    <p class="stages__item-text">Строительство дворца для турнира</p>
+                </li>
+                <li class="stages__item">
+                    <div class="stages__item-number">5</div>
+                    <p class="stages__item-text">Размещение гаражей для&nbsp;гостевого<br>автотранспорта</p>
+                </li>
+                <li class="stages__item">
+                    <div class="stages__item-number">6</div>
+                    <p class="stages__item-text">Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</p>
+                </li>
+                <li class="stages__item">
+                    <div class="stages__item-number">7</div>
+                    <p class="stages__item-text">Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн</p>
+                    <img class="stages__image-desktop" src="/src/images/plane.svg" alt="фото биплана">
+                </li>
+            </ul>
+            <div class="slider">
+                <button class="slider__button slider-btn-left">
+                    <img class="slider__arrow-left" src="/src/images/carousel-button-left.svg" alt="стрелка влево">
+                </button>
+                <div class="slider__container">
+                    <div class="slide active" data-index="0"></div>
+                    <div class="slide" data-index="2"></div>
+                    <div class="slide" data-index="3"></div>
+                    <div class="slide" data-index="5"></div>
+                    <div class="slide" data-index="6"></div>
+                </div>
+                <button class="slider__button slider-btn-right">
+                    <img class="slider__arrow-right" src="/src/images/carousel-button-right.svg" alt="стрелка вправо">
+                </button>
+            </div>
+        </main>
+    </section>
+
+    <section class="competitors" id="details">
+        <main class="competitors__content-wrapper">
+            <div class="competitors__header-container">
+                <h2 class="competitors__header">Участники турнира</h2>
+                <div class="pagination">
+                    <button class="pagination__button btn-left">
+                        <img class="pagination__arrow-left" src="/src/images/carousel-button-left.svg" alt="стрелка влево">
+                    </button>
+                    <p class="pagination__count">
+                        <span class="highlight"></span>
+                        / <span class="total"></span></p>
+                    <button class="pagination__button btn-right">
+                        <img class="pagination__arrow-right" src="/src/images/carousel-button-right.svg" alt="стрелка вправо">
+                    </button>
+                </div>
+            </div>
+            <section class="competitors__gallery">
+                <article class="competitors__competitor-card">
+                    <img class="competitors__avatar" src="/src/images/competitor-avatar.svg" alt="аватарка участника">
+                    <h3 class="competitors__name">Хозе-Рауль Капабланка</h3>
+                    <p class="competitors__position">Чемпион мира по шахматам</p>
+                    <button class="competitors__details-btn">Подробнее</button>
+                </article>
+                <article class="competitors__competitor-card">
+                    <img class="competitors__avatar" src="/src/images/competitor-avatar.svg" alt="аватарка участника">
+                    <h3 class="competitors__name">Эммануил Ласкер</h3>
+                    <p class="competitors__position">Чемпион мира по шахматам</p>
+                    <button class="competitors__details-btn">Подробнее</button>
+                </article>
+                <article class="competitors__competitor-card">
+                    <img class="competitors__avatar" src="/src/images/competitor-avatar.svg" alt="аватарка участника">
+                    <h3 class="competitors__name">Александр Алехин</h3>
+                    <p class="competitors__position">Чемпион мира по шахматам</p>
+                    <button class="competitors__details-btn">Подробнее</button>
+                </article>
+                <article class="competitors__competitor-card">
+                    <img class="competitors__avatar" src="/src/images/competitor-avatar.svg" alt="аватарка участника">
+                    <h3 class="competitors__name">Арон Нимцович</h3>
+                    <p class="competitors__position">Чемпион мира по шахматам</p>
+                    <button class="competitors__details-btn">Подробнее</button>
+                </article>
+                <article class="competitors__competitor-card">
+                    <img class="competitors__avatar" src="/src/images/competitor-avatar.svg" alt="аватарка участника">
+                    <h3 class="competitors__name">Рихард Рети</h3>
+                    <p class="competitors__position">Чемпион мира по шахматам</p>
+                    <button class="competitors__details-btn">Подробнее</button>
+                </article>
+                <article class="competitors__competitor-card">
+                    <img class="competitors__avatar" src="/src/images/competitor-avatar.svg" alt="аватарка участника">
+                    <h3 class="competitors__name">Остап Бендер</h3>
+                    <p class="competitors__position">Чемпион мира по шахматам</p>
+                    <button class="competitors__details-btn">Подробнее</button>
+                </article>
+            </section>
+        </main>
+    </section>
+    <marquee class="running-line">Дело помощи утопающим — дело рук самих утопающих! &#183; Шахматы двигают вперед не только культуру, но и экономику! &#183; Лед тронулся, господа присяжные заседатели!</marquee>
+    <footer class="footer">
+        <div class="footer__container"></div>
+        <p class="footer__text">Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».</p>
+    </footer>
+    <script src="/src/scripts/anchorScroll.js"></script>
+    <script src="/src/scripts/carouselParticipants.js"></script>
+    <script src="/src/scripts/stagesSlider.js"></script>
+</body>
+</html>

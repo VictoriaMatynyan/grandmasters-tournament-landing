@@ -1,0 +1,5 @@
+.event__content {
+    max-width: 1366px;
+    display: flex;
+    flex-direction: column;
+}
