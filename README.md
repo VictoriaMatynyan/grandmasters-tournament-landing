@@ -1,4 +1,4 @@
-# Chess Masters Tournament Landing Page / Лендинг для турнира гроссмейстеров
+# Лендинг для турнира гроссмейстеров / Grandmaster Tournament Landing Page
 
 <img width="1150" alt="image" src="https://github.com/VictoriaMatynyan/ya-crowd-layout-test/assets/126866178/4651969d-e325-4af0-b5c2-dbafd1d95701">
 
